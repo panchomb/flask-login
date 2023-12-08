@@ -7,13 +7,13 @@ COOKIE_NAME = "remember_token"
 COOKIE_DURATION = timedelta(days=365)
 
 #: Whether the "remember me" cookie requires Secure; defaults to ``False``
-COOKIE_SECURE = False
+COOKIE_SECURE = True
 
 #: Whether the "remember me" cookie uses HttpOnly or not; defaults to ``True``
 COOKIE_HTTPONLY = True
 
 #: Whether the "remember me" cookie requires same origin; defaults to ``None``
-COOKIE_SAMESITE = None
+COOKIE_SAMESITE = 'None'
 
 #: The default flash message to display when users need to log in.
 LOGIN_MESSAGE = "Please log in to access this page."
